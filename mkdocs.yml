@@ -4,7 +4,10 @@ site_name: Fish and Deer
 # Welcome to yujial
 nav:
   - 首页: home.md
-  - 关于: about.md
+  - 个人介绍: about.md
+  - 博客:
+      - 博客首页: blog/index.md
+      - 我的第一篇博客: blog/first-post.md
 
 theme:
   name: material
