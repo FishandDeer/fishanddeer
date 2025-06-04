@@ -1,0 +1,78 @@
+site_name: Fish and Deer 
+
+
+# Welcome to yujial
+nav:
+  - 首页: home.md
+  - 关于: about.md
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: 切换到夜间模式
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到日间模式
+  font:
+    text: Roboto
+    code: Fira Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+  icon:
+    logo: material/paw
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/你的github
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/你的twitter
+  # 可自定义 logo、favicon
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.critic
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
