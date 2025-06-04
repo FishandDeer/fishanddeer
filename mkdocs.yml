@@ -50,7 +50,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/你的twitter
   # 可自定义 logo、favicon
-  logo: assets/logo.png
+  # logo: assets/logo.png
   favicon: assets/favicon.ico
 
 markdown_extensions:
